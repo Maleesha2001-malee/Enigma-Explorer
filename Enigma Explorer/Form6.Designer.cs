@@ -62,6 +62,7 @@
             this.buttonHome.Size = new System.Drawing.Size(68, 60);
             this.buttonHome.TabIndex = 0;
             this.buttonHome.UseVisualStyleBackColor = true;
+            this.buttonHome.Click += new System.EventHandler(this.buttonHome_Click);
             // 
             // groupBox2
             // 

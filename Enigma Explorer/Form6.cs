@@ -42,5 +42,12 @@ namespace Enigma_Explorer
             artist.Show();
             this.Hide();
         }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
     }
 }
