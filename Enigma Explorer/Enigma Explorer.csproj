@@ -201,5 +201,26 @@
   <ItemGroup>
     <None Include="Resources\Music Genre.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\a-logo-for-a-music-company-that-is-made-by-song-brand-vector1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1000_F_265334795_0pP1EJ4NxaW3hBFbNnZebMqSBSZIUUWL2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-12-24 at 18.37.25_a5c52bc51.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-12-24 at 18.43.01_c097988c1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\WhatsApp Image 2023-12-24 at 18.43.16_bb153d911.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
