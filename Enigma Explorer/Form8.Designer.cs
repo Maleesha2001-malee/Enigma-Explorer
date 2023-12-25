@@ -131,6 +131,7 @@
             this.buttonArtistSearch.TabIndex = 12;
             this.buttonArtistSearch.Text = "Search";
             this.buttonArtistSearch.UseVisualStyleBackColor = false;
+            this.buttonArtistSearch.Click += new System.EventHandler(this.buttonArtistSearch_Click);
             // 
             // Song_Artist
             // 
