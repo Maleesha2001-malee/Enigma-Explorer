@@ -13,6 +13,7 @@ namespace Enigma_Explorer
 {
     public partial class Form2 : Form
     {
+     
    private const string FilePath = "C://Users//User//Downloads//Enigma-Explorer//TextData.txt";
    //the file path is depend on the text file location
         public Form2()

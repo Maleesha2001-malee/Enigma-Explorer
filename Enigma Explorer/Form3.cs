@@ -29,13 +29,15 @@ namespace Enigma_Explorer
         private void button_GoToLogin_Click(object sender, EventArgs e)
         {
             Form2 log=new Form2();
-            log.ShowDialog();
+            log.Show();
+            this.Hide();
         } 
 
         private void button_GoToRegister_Click(object sender, EventArgs e)
         {
             Register register = new Register();
-            register.ShowDialog();
+            register.Show();
+            this.Hide();
         }
         private void buttonReg_Click(object sender, EventArgs e)
         {
@@ -74,7 +76,8 @@ namespace Enigma_Explorer
                 ClearFields();
             
                 Form2 log=new Form2();
-                log.ShowDialog();
+                log.Show();
+                
         }
             private void ClearFields()
             {

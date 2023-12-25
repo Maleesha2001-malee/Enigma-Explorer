@@ -187,7 +187,7 @@
             this.button_GoToLogin.Location = new System.Drawing.Point(1, 2);
             this.button_GoToLogin.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.button_GoToLogin.Name = "button_GoToLogin";
-            this.button_GoToLogin.Size = new System.Drawing.Size(372, 50);
+            this.button_GoToLogin.Size = new System.Drawing.Size(353, 50);
             this.button_GoToLogin.TabIndex = 12;
             this.button_GoToLogin.Text = "Login";
             this.button_GoToLogin.UseVisualStyleBackColor = false;
