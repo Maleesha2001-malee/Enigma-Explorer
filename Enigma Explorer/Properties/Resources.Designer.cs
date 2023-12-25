@@ -93,9 +93,39 @@ namespace Enigma_Explorer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1000_F_265334795_0pP1EJ4NxaW3hBFbNnZebMqSBSZIUUWL2 {
+            get {
+                object obj = ResourceManager.GetObject("1000_F_265334795_0pP1EJ4NxaW3hBFbNnZebMqSBSZIUUWL2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _11 {
+            get {
+                object obj = ResourceManager.GetObject("11", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap a_logo_for_a_music_company_that_is_made_by_song_brand_vector {
             get {
                 object obj = ResourceManager.GetObject("a-logo-for-a-music-company-that-is-made-by-song-brand-vector", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap a_logo_for_a_music_company_that_is_made_by_song_brand_vector1 {
+            get {
+                object obj = ResourceManager.GetObject("a-logo-for-a-music-company-that-is-made-by-song-brand-vector1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -116,6 +146,16 @@ namespace Enigma_Explorer.Properties {
         internal static System.Drawing.Bitmap images {
             get {
                 object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images1 {
+            get {
+                object obj = ResourceManager.GetObject("images1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -173,6 +213,16 @@ namespace Enigma_Explorer.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_24_at_18_371 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-24 at 18.371", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_24_at_18_43_01_c097988c {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-24 at 18.43.01_c097988c", resourceCulture);
@@ -186,6 +236,26 @@ namespace Enigma_Explorer.Properties {
         internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_24_at_18_43_16_bb153d91 {
             get {
                 object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-24 at 18.43.16_bb153d91", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_24_at_18_431 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-24 at 18.431", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2023_12_24_at_18_432 {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2023-12-24 at 18.432", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
