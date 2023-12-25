@@ -55,10 +55,10 @@ namespace Enigma_Explorer
                  if (savedUsername == enteredUsername && savedPassword == enteredPassword)
                  {
                     MessageBox.Show("Login successful!");
-                    Form4 form4 = new Form4();
+                    Form4 Home = new Form4();
 
                     // Show Form1 and hide Form2
-                    form4.Show();
+                    Home.Show();
                     this.Hide();
                      ClearFields();
                      return;
@@ -78,8 +78,8 @@ namespace Enigma_Explorer
 
       private void button_GoToRegister_Click(object sender, EventArgs e)
      {
-        Form3 form3 = new Form3();
-         form3.Show(); 
+        Form3 Register = new Form3();
+         Register.Show(); 
          this.Hide();
      }       
     }
