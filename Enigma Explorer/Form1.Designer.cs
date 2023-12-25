@@ -86,6 +86,7 @@
             this.login.TabIndex = 14;
             this.login.Text = "Login";
             this.login.UseVisualStyleBackColor = false;
+            this.login.Click += new System.EventHandler(this.login_Click_1);
             // 
             // register
             // 
@@ -98,6 +99,7 @@
             this.register.TabIndex = 13;
             this.register.Text = "Register";
             this.register.UseVisualStyleBackColor = false;
+            this.register.Click += new System.EventHandler(this.register_Click_1);
             // 
             // label2
             // 
@@ -169,7 +171,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Welcome";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Welcome_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
