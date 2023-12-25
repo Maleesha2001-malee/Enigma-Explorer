@@ -12,6 +12,7 @@ namespace Enigma_Explorer
 {
     public partial class Form2 : Form
     {
+    //private const string FilePath = "C:\\Users\\Sanduni\\Desktop\\WindowsFormsApp2\\WindowsFormsApp2\\TextFile1.txt";
         public Form2()
         {
             InitializeComponent();
@@ -21,5 +22,57 @@ namespace Enigma_Explorer
         {
 
         }
+                Color select_color = Color.FromArgb(46, 49, 49);
+        private void button_GoToLogin_Click(object sender, EventArgs e)
+        {
+            panel_login.BringToFront();
+            button_GoToLogin.BackColor = select_color;
+            panel_login.BackColor = select_color;
+        }
+
+        private void button_login_Click(object sender, EventArgs e)
+        {
+            string enteredUsername = username.Text.Trim();
+            string enteredPassword = Password.Text.Trim();
+
+            if (string.IsNullOrEmpty(enteredUsername) || string.IsNullOrEmpty(enteredPassword))
+            {
+                MessageBox.Show("Please enter both username and password.");
+                return;
+            }
+
+            //Read the file and check for the user credentials
+            /* string[] lines = File.ReadAllLines(FilePath);
+             foreach (string line in lines)
+             {
+                 string[] parts = line.Split(',');
+                 string savedUsername = parts[0].Split(':')[1].Trim();
+                 string savedPassword = parts[1].Split(':')[1].Trim();
+
+                 if (savedUsername == enteredUsername && savedPassword == enteredPassword)
+                 {
+                     MessageBox.Show("Login successful!");
+                     ClearFields();
+                     return;
+                 }
+             }
+
+             MessageBox.Show("Invalid username or password.");
+         }
+
+         private void ClearFields()
+         {
+             username.Clear();
+             Password.Clear();
+         }
+
+
+      private void button_GoToRegister_Click(object sender, EventArgs e)
+     {
+        // Form newform = new Register();
+         //newform.Show();   
+     }
+            */
     }
+}
 }
