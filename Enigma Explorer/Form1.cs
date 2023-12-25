@@ -16,12 +16,18 @@ namespace Enigma_Explorer
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
         private void register_click(object sender,EvenArgs e)
+=======
+
+        private void Welcome_Load(object sender, EventArgs e)
+>>>>>>> Stashed changes
         {
         Register reg=new Register();
         
         reg.Show();
         }
+<<<<<<< Updated upstream
         private void login_click(object sender,EvenArgs e)
         {
         form2 log=new form2();
@@ -29,5 +35,15 @@ namespace Enigma_Explorer
         
         }
         
+=======
+<<<<<<< Updated upstream
+
+=======
+        private void Welcome_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
+>>>>>>> Stashed changes
     }
 }
