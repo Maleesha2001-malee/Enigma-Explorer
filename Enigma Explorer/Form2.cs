@@ -70,6 +70,7 @@ namespace Enigma_Explorer
          {
              username.Clear();
              Password.Clear();
+             //clear data
          }
 
 
