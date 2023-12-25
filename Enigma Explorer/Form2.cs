@@ -7,12 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Enigma_Explorer
 {
     public partial class Form2 : Form
     {
-    //private const string FilePath = "C:\\Users\\Sanduni\\Desktop\\WindowsFormsApp2\\WindowsFormsApp2\\TextFile1.txt";
+    private const string FilePath = "Explorer/TextData.txt";
         public Form2()
         {
             InitializeComponent();
@@ -42,7 +43,7 @@ namespace Enigma_Explorer
             }
 
             //Read the file and check for the user credentials
-            /* string[] lines = File.ReadAllLines(FilePath);
+            string[] lines = File.ReadAllLines(FilePath);
              foreach (string line in lines)
              {
                  string[] parts = line.Split(',');
@@ -51,7 +52,12 @@ namespace Enigma_Explorer
 
                  if (savedUsername == enteredUsername && savedPassword == enteredPassword)
                  {
-                     MessageBox.Show("Login successful!");
+                    MessageBox.Show("Login successful!");
+                    Form4 form4 = new Form4();
+
+                    // Show Form1 and hide Form2
+                    form4.Show();
+                    this.Hide();
                      ClearFields();
                      return;
                  }
@@ -69,10 +75,10 @@ namespace Enigma_Explorer
 
       private void button_GoToRegister_Click(object sender, EventArgs e)
      {
-        // Form newform = new Register();
-         //newform.Show();   
-     }
-            */
+        Form3 form3 = new Form3();
+         form3.Show(); 
+         this.Hide();
+     }       
     }
 }
 }
