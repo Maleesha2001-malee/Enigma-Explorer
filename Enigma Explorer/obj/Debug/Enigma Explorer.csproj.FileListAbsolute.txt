@@ -49,3 +49,6 @@ C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Exp
 C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.csproj.CoreCompileInputs.cache
 C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.exe
 C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.pdb
+C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\bin\Debug\Enigma Explorer.exe.config
+C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\bin\Debug\Enigma Explorer.exe
+C:\Users\Udara\Source\Repos\Enigma-Explorer\Enigma Explorer\bin\Debug\Enigma Explorer.pdb
