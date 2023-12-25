@@ -19,6 +19,7 @@ namespace Enigma_Explorer
         private void register_click(object sender,EvenArgs e)
         {
         Register reg=new Register();
+        
         reg.Show();
         }
         private void login_click(object sender,EvenArgs e)
