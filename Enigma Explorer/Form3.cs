@@ -12,7 +12,7 @@ namespace Enigma_Explorer
 {
     public partial class Register : Form
     {
-        private const string FilePath="C: //Users//User//Downloads//Enigma-Explorer//TextFile1.txt";
+        private const string FilePath="C: //Users//User//Downloads//Enigma-Explorer//TextData.txt";
         //FilePath is depend on the text file location.
         
         public Register()
