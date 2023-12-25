@@ -16,6 +16,14 @@ namespace Enigma_Explorer
         {
             InitializeComponent();
         }
+<<<<<<< Updated upstream
         
+=======
+
+        private void Welcome_Load(object sender, EventArgs e)
+        {
+
+        }
+>>>>>>> Stashed changes
     }
 }
