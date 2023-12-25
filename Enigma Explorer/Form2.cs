@@ -13,7 +13,8 @@ namespace Enigma_Explorer
 {
     public partial class Form2 : Form
     {
-    private const string FilePath = "Explorer/TextData.txt";
+   private const string FilePath = "Explorer//TextData.txt";
+   //the file path is depend on the text file location
         public Form2()
         {
             InitializeComponent();
@@ -23,16 +24,13 @@ namespace Enigma_Explorer
         {
 
         }
-        private void Form2_Load(object sender, EventArgs e)
-        {
 
-        }
-                Color select_color = Color.FromArgb(46, 49, 49);
+         Color select_color = Color.FromArgb(46, 49, 49);
         private void button_GoToLogin_Click(object sender, EventArgs e)
         {
-            panel_login.BringToFront();
+            Login.BringToFront();
             button_GoToLogin.BackColor = select_color;
-            panel_login.BackColor = select_color;
+            Login.BackColor = select_color;
         }
 
         private void button_login_Click(object sender, EventArgs e)
@@ -57,10 +55,10 @@ namespace Enigma_Explorer
                  if (savedUsername == enteredUsername && savedPassword == enteredPassword)
                  {
                     MessageBox.Show("Login successful!");
-                    Form4 form4 = new Form4();
+                    Home F4 = new Home();
 
                     // Show Form1 and hide Form2
-                    form4.Show();
+                    F4.Show();
                     this.Hide();
                      ClearFields();
                      return;
@@ -80,8 +78,8 @@ namespace Enigma_Explorer
 
       private void button_GoToRegister_Click(object sender, EventArgs e)
      {
-        Form3 form3 = new Form3();
-         form3.Show(); 
+        Register F3 = new Register();
+         F3.Show(); 
          this.Hide();
      }       
     }
