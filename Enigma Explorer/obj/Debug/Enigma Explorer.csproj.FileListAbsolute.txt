@@ -17,3 +17,19 @@ C:\Users\maleesha\Desktop\Visual Programming Project\Enigma Explorer\Enigma Expl
 C:\Users\maleesha\Desktop\Visual Programming Project\Enigma Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.csproj.CoreCompileInputs.cache
 C:\Users\maleesha\Desktop\Visual Programming Project\Enigma Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.exe
 C:\Users\maleesha\Desktop\Visual Programming Project\Enigma Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.pdb
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.csproj.AssemblyReference.cache
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Welcome.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Books.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Form2.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Register.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Home.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Movie.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Song.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Song_Genre.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Song_Artist.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Travelling.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma_Explorer.Properties.Resources.resources
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.csproj.GenerateResource.cache
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.csproj.CoreCompileInputs.cache
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.exe
+C:\Users\maleesha\Desktop\Visual Programming Project\Enigma-Explorer\Enigma Explorer\obj\Debug\Enigma Explorer.pdb
