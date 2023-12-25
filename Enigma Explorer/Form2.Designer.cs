@@ -53,6 +53,7 @@
             this.button_GoToLogin.TabIndex = 10;
             this.button_GoToLogin.Text = "Login";
             this.button_GoToLogin.UseVisualStyleBackColor = false;
+            this.button_GoToLogin.Click += new System.EventHandler(this.button_GoToLogin_Click_1);
             // 
             // button_GoToRegister
             // 
@@ -96,6 +97,7 @@
             this.button_login.TabIndex = 4;
             this.button_login.Text = "LOGIN";
             this.button_login.UseVisualStyleBackColor = true;
+            this.button_login.Click += new System.EventHandler(this.button_login_Click);
             // 
             // Password
             // 

@@ -26,7 +26,7 @@ namespace Enigma_Explorer
         }
 
             Color select_color = Color.FromArgb(46, 49, 49);
-            private void button_GoToLogin_Click(object sender, EventArgs e)
+            private void button_GoToLogin_Click_1(object sender, EventArgs e)
             {
                 Login.BringToFront();
                 button_GoToLogin.BackColor = select_color;
@@ -76,7 +76,7 @@ namespace Enigma_Explorer
             }
 
 
-            private void button_GoToRegister_Click(object sender, EventArgs e)
+            private void button_GoToRegister_Click_1(object sender, EventArgs e)
             {
                 Register F3 = new Register();
                 F3.Show();
@@ -84,5 +84,7 @@ namespace Enigma_Explorer
             }
 
         
+
+      
     }
 }
