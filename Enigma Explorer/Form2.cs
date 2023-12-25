@@ -7,11 +7,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 
 namespace Enigma_Explorer
 {
     public partial class Form2 : Form
     {
+    private const string FilePath = "Explorer/TextData.txt";
         public Form2()
         {
             InitializeComponent();
