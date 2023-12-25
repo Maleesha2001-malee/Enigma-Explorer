@@ -18,13 +18,13 @@ namespace Enigma_Explorer
         }
 <<<<<<< HEAD
 <<<<<<< Updated upstream
-        private void register_click(object sender,EvenArgs e)
+        private void register_click_1(object sender,EvenArgs e)
 =======
 
         private void Welcome_Load(object sender, EventArgs e)
 >>>>>>> Stashed changes
 =======
-        private void register_click(object sender,EventArgs e)
+        private void register_click_1(object sender,EventArgs e)
 >>>>>>> c2712c29044c0ed058001bc83d69f89acf70a934
         {
         Register reg=new Register();
@@ -33,9 +33,9 @@ namespace Enigma_Explorer
         }
 <<<<<<< HEAD
 <<<<<<< Updated upstream
-        private void login_click(object sender,EvenArgs e)
+        private void login_click_1(object sender,EvenArgs e)
 =======
-        private void login_click(object sender,EventArgs e)
+        private void login_click_1(object sender,EventArgs e)
 >>>>>>> c2712c29044c0ed058001bc83d69f89acf70a934
         {
         Form2 log=new Form2();
