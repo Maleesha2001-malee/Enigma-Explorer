@@ -85,6 +85,7 @@
             this.Login.Name = "Login";
             this.Login.Size = new System.Drawing.Size(802, 431);
             this.Login.TabIndex = 9;
+            this.Login.Paint += new System.Windows.Forms.PaintEventHandler(this.Login_Paint);
             // 
             // button_login
             // 

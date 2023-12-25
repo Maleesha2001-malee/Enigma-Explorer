@@ -84,8 +84,6 @@ namespace Enigma_Explorer
                 this.Hide();
             }
 
-        
-
-      
+       
     }
 }
