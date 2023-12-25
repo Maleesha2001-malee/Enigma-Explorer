@@ -13,7 +13,7 @@ namespace Enigma_Explorer
 {
     public partial class Register : Form
     {
-        private const string FilePath="C: //Users//User//Downloads//Enigma-Explorer//TextData.txt";
+        private const string FilePath="C://Users//User//Downloads//Enigma-Explorer//TextData.txt";
         //FilePath is depend on the text file location.
         
         public Register()
@@ -26,18 +26,18 @@ namespace Enigma_Explorer
 
         }
         
-        private void button_GoToLogin_Click_1(object sender, EventArgs e)
+        private void button_GoToLogin_Click(object sender, EventArgs e)
         {
             Form2 log=new Form2();
             log.ShowDialog();
         } 
 
-        private void button_GoToRegister_Click_1(object sender, EventArgs e)
+        private void button_GoToRegister_Click(object sender, EventArgs e)
         {
             Register register = new Register();
             register.ShowDialog();
         }
-        private void buttonReg_Click_1(object sender, EventArgs e)
+        private void buttonReg_Click(object sender, EventArgs e)
         {
             string firstname = textBoxFN.Text.Trim();
             string lastname = textBoxLN.Text.Trim();
@@ -84,6 +84,8 @@ namespace Enigma_Explorer
                 textBoxPass.Clear();
                 textBoxCPass.Clear();
             }
+
+       
     }
 }
             

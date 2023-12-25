@@ -56,6 +56,7 @@
             this.buttonReg.TabIndex = 24;
             this.buttonReg.Text = "Register";
             this.buttonReg.UseVisualStyleBackColor = false;
+            this.buttonReg.Click += new System.EventHandler(this.buttonReg_Click);
             // 
             // textBoxCPass
             // 
@@ -176,6 +177,7 @@
             this.button_GoToRegister.TabIndex = 13;
             this.button_GoToRegister.Text = "Register";
             this.button_GoToRegister.UseVisualStyleBackColor = false;
+            this.button_GoToRegister.Click += new System.EventHandler(this.button_GoToRegister_Click);
             // 
             // button_GoToLogin
             // 
@@ -190,6 +192,7 @@
             this.button_GoToLogin.Text = "Login";
             this.button_GoToLogin.UseVisualStyleBackColor = false;
             this.button_GoToLogin.UseWaitCursor = true;
+            this.button_GoToLogin.Click += new System.EventHandler(this.button_GoToLogin_Click);
             // 
             // Register
             // 
