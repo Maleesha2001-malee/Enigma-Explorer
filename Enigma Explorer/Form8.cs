@@ -16,5 +16,24 @@ namespace Enigma_Explorer
         {
             InitializeComponent();
         }
+
+        private void Song_Artist_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonBack_Click(object sender, EventArgs e)
+        {
+            Song song = new Song();
+            song.Show();
+            this.Hide();
+        }
+
+        private void buttonHome_Click(object sender, EventArgs e)
+        {
+            Home home = new Home();
+            home.Show();
+            this.Hide();
+        }
     }
 }
