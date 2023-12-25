@@ -18,12 +18,12 @@ namespace Enigma_Explorer
         }
         private void register_click(object sender,EvenArgs e)
         {
-        register reg=new register();
+        Register reg=new Register();
         reg.Show();
         }
         private void login_click(object sender,EvenArgs e)
         {
-        login log=new login();
+        form2 log=new form2();
         log.Show();
         
         }
