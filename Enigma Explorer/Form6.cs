@@ -21,5 +21,26 @@ namespace Enigma_Explorer
         {
 
         }
+
+        private void Song_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void GenreClick_Click(object sender, EventArgs e)
+        {
+            Song_Genre genre = new Song_Genre();
+
+            genre.Show();
+            this.Hide();
+        }
+
+        private void buttonArtist_Click(object sender, EventArgs e)
+        {
+            Song_Artist artist = new Song_Artist();
+
+            artist.Show();
+            this.Hide();
+        }
     }
 }
