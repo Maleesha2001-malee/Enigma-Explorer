@@ -46,46 +46,49 @@ namespace Enigma_Explorer
                 }
 
                 //Read the file and check for the user credentials
-                string[] lines = File.ReadAllLines(FilePath);
-                foreach (string line in lines)
+                if(IsValidUser(enteredUsername, enteredPassword))
                 {
-                    string[] parts = line.Split(',');
-                    string savedUsername = parts[0].Split(':')[1].Trim();
-                    string savedPassword = parts[1].Split(':')[1].Trim();
-
-                    if (savedUsername == enteredUsername && savedPassword == enteredPassword)
-                    {
-                        MessageBox.Show("Login successful!");
-                        Home F4 = new Home();
-
-                        // Show Form1 and hide Form2
-                        F4.Show();
-                        this.Hide();
-                        ClearFields();
-                        return;
-                    }
+                    MessageBox.Show("Login successful!");
+                    Home home=new Home();
+                    home.ShowDialog();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid username or password.Login failed");
                 }
 
-                MessageBox.Show("Invalid username or password.");
             }
 
-            private void ClearFields()
-            {
-                username.Clear();
-                Password.Clear();
-                //clear data
-            }
+             private bool IsValidUser(string enteredUsername, string enteredPassword)
+             {
+                     string FilePath = "C:\\Users\\maleesha\\Desktop\\Visual Programming Project\\Enigma-Explorer\\Enigma Explorer\\TextData.txt";
+                     if (File.Exists(FilePath))
+                     {
+                         string[] lines = File.ReadAllLines(FilePath);
+                         foreach (string line in lines)
+                         {
+                             string[] parts = line.Split(',');
+                             if (parts.Length == 5 && parts[2] == enteredUsername && parts[3] == enteredPassword)
+                             {
+                                 return true;
+                             }
+                         }
+                     }
+                     return false;
+                }
+            
+                private void button_GoToRegister_Click_1(object sender, EventArgs e)
+                {
+                    Register F3 = new Register();
+                    F3.Show();
+                    this.Hide();
+                }
 
-
-            private void button_GoToRegister_Click_1(object sender, EventArgs e)
-            {
-                Register F3 = new Register();
-                F3.Show();
-                this.Hide();
-            }
-
-           private void Login_Paint(object sender, EventArgs e)
-           { }
-       
+               private void Login_Paint(object sender, EventArgs e)
+                { 
+                     
+                }
+        }
     }
-}
+       
+
