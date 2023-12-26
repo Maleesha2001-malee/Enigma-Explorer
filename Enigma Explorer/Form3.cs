@@ -32,12 +32,10 @@ namespace Enigma_Explorer
             log.Show();
             this.Hide();
         } 
-
+        Color select_color = Color.FromArgb(46, 49, 49);
         private void button_GoToRegister_Click(object sender, EventArgs e)
         {
-            Register register = new Register();
-            register.Show();
-            this.Hide();
+            button_GoToRegister.BackColor = select_color;
         }
         private void buttonReg_Click(object sender, EventArgs e)
         {
@@ -71,7 +69,7 @@ namespace Enigma_Explorer
             }
             using (StreamWriter writer = File.AppendText(FilePath))
             {
-                writer.WriteLine($"FirstName:{firstname},LastName:{lastname},UserName:{username},Password:{password},ConfirmPassword:{Cpassword}");
+                writer.WriteLine($"{firstname},{lastname},{username},{password},{Cpassword}");
             }
                 ClearFields();
             
