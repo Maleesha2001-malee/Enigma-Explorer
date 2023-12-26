@@ -84,6 +84,8 @@ namespace Enigma_Explorer
                 this.Hide();
             }
 
+           private void Login_Paint(object sender, EventArgs e)
+           { }
        
     }
 }
