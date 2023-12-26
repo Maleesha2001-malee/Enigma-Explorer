@@ -28,5 +28,15 @@ namespace Enigma_Explorer
             Welcome f4 = new Welcome();
             f4.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
