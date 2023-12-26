@@ -1,4 +1,4 @@
-﻿namespace Enigma_Explorer
+ ﻿namespace Enigma_Explorer
 {
     partial class Books
     {
