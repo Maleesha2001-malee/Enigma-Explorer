@@ -1,2 +1,0 @@
-﻿FirstName:Richard,LastName:Dev,UserName:RichDev,Password:12345678,ConfirmPassword:12345678
-FirstName:George,LastName:Orwell,UserName:GeoOr,Password:23456789,ConfirmPassword:23456789
