@@ -16,5 +16,17 @@ namespace Enigma_Explorer
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Home f3 = new Home();
+            f3.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Welcome f4 = new Welcome();
+            f4.Show();
+        }
     }
 }
