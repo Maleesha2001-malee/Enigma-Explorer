@@ -29,13 +29,14 @@ namespace Enigma_Explorer
         private void button_GoToLogin_Click_1(object sender, EventArgs e)
         {
             Form2 log=new Form2();
-            log.ShowDialog();
+            log.Show();
+            this.Hide();
         } 
 
+        Color select_color=Color.FromArgb(46, 49, 49);
         private void button_GoToRegister_Click_1(object sender, EventArgs e)
         {
-            Register register = new Register();
-            register.ShowDialog();
+           button_GoToRegister.BackColor=select_color;
         }
         private void buttonReg_Click_1(object sender, EventArgs e)
         {
@@ -69,12 +70,12 @@ namespace Enigma_Explorer
             }
             using (StreamWriter writer = File.AppendText(FilePath))
             {
-                writer.WriteLine($"FirstName:{firstname},LastName:{lastname},UserName:{username},Password:{password},ConfirmPassword:{Cpassword}");
+                writer.WriteLine($"{firstname},{lastname},{username},{password},{Cpassword}");
             }
                 ClearFields();
             
                 Form2 log=new Form2();
-                log.ShowDialog();
+                log.Show();
         }
             private void ClearFields()
             {
