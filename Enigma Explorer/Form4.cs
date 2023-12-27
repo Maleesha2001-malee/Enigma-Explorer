@@ -12,10 +12,7 @@ namespace Enigma_Explorer
 {
     public partial class Home : Form
     {
-        private Song song = null;
-        private Movie movie = null;
-        private Books books = null;
-        private Travelling travelling = null;
+        
         public Home()
         {
             InitializeComponent();
@@ -28,41 +25,30 @@ namespace Enigma_Explorer
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (song == null || song.IsDisposed)
-            {
-                song = new Song();
-            }
-            song.Show();
+            Song s1 = new Song();
+            s1.Show();
             this.Hide();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            if (movie == null || movie.IsDisposed)
-            {
-                movie = new Movie();
-            }
-            movie.Show();
+            Movie m1 = new Movie();
+            m1.Show();
             this.Hide();
+
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            if (books == null || books.IsDisposed)
-            {
-                books = new Books();
-            }
-            books.Show();
+            Books b1 = new Books();
+            b1.Show();
             this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            if (travelling == null || travelling.IsDisposed)
-            {
-                travelling = new Travelling();
-            }
-            travelling.Show();
+            Travelling t1 = new Travelling();
+            t1.Show();
             this.Hide();
         }
 
