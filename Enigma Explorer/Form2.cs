@@ -50,7 +50,8 @@ namespace Enigma_Explorer
                 {
                     MessageBox.Show("Login successful!");
                     Home home=new Home();
-                    home.ShowDialog();
+                    home.Show();
+                    this.Hide();
                 }
                 else
                 {
